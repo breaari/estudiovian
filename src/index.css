@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* styles.css */
+.custom-list {
+    list-style-type: disc; /* Asegura que los puntos de la lista sean visibles */
+    padding-left: 1.5em; /* Ajusta este valor para alinear el texto con los puntos */
+}
+
+.custom-list li {
+    margin-bottom: 0.5em; /* Opcional, para agregar un espacio entre los ítems */
+    padding-left: 0.5em; /* Ajusta este valor para la sangría del texto */
+}
+
