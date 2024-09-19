@@ -1,15 +1,48 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
 
-/* styles.css */
 .custom-list {
-    list-style-type: disc; /* Asegura que los puntos de la lista sean visibles */
-    padding-left: 1.5em; /* Ajusta este valor para alinear el texto con los puntos */
+    list-style-type: disc;
+    padding-left: 1.5em;
 }
 
 .custom-list li {
-    margin-bottom: 0.5em; /* Opcional, para agregar un espacio entre los ítems */
-    padding-left: 0.5em; /* Ajusta este valor para la sangría del texto */
+    margin-bottom: 0.5em;
+    padding-left: 0.5em;
 }
 
+html {
+    @apply scroll-smooth;
+  }
+
+
+/* @keyframes moveUp {
+    from {
+      transform: translateY(50px);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes moveDown {
+    from {
+      transform: translateY(-50px);
+      opacity: 1;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .animate-moveUp {
+    animation: moveUp 0.5s ease-out;
+  }
+
+  .animate-moveDown {
+    animation: moveDown 0.5s ease-out;
+  } */
