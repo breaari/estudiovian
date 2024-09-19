@@ -12,27 +12,27 @@ export const Why = () => {
             <div className="w-[1200px] mq980:w-full"  >
                 <h1 className="font-spartan font-bold text-4xl my-10 mq980:my-6 mq980:text-center">¿Por qué elegirnos?</h1>
                 <div className="flex flex-wrap justify-between gap-y-[15px] mq980:justify-center mq980:flex-col mq980:items-center">
-                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] mq980:w-full hover:scale-105 transition-transform duration-300 ease-in-out">
                         <GrGroup className="text-6xl mb-2" />
                         <p className="text-xl font-semibold text-center">Equipo administrativo profesionalmente idóneo para satisfacer las demandas online.</p>
                     </div>
-                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] mq980:w-full hover:scale-105 transition-transform duration-300 ease-in-out">
                         <TbWorld className="text-6xl mb-2" />
                         <p className="text-xl font-semibold text-center">Cobertura de servicio en CABA, Bs As, interior del país y a nivel mundial.</p>
                     </div>
-                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] mq980:w-full hover:scale-105 transition-transform duration-300 ease-in-out">
                         <TbEyeSearch className="text-6xl mb-2" />
                         <p className="text-xl font-semibold text-center">Detección temprana de fraudes.</p>
                     </div>
-                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] mq980:w-full hover:scale-105 transition-transform duration-300 ease-in-out">
                         <PiPiggyBankBold className="text-6xl mb-2" />
                         <p className="text-xl font-semibold text-center">Reducción de costo por siniestro.</p>
                     </div>
-                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] mq980:w-full hover:scale-105 transition-transform duration-300 ease-in-out">
                         <FaRegClock className="text-6xl mb-2" />
                         <p className="text-xl font-semibold text-center">Cumplimiento de plazos establecidos.</p>
                     </div>
-                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] hover:scale-105 transition-transform duration-300 ease-in-out">
+                    <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] mq980:w-full hover:scale-105 transition-transform duration-300 ease-in-out">
                         <RiSpeakLine className="text-6xl mb-2" />
                         <p className="text-xl font-semibold text-center">Comunicación fluida y feedback oportuno entre todas las partes involucradas.</p>
                     </div>
