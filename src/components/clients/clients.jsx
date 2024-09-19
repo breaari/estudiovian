@@ -54,7 +54,7 @@ export const Clients = () => {
 
     return (
         <div id="nuestros-clientes" className="flex justify-center text-azuloscuro pt-16 mq980:pt-8 mq980:max-w-screen" ref={clientsRef}>
-            <div className="w-[1200px] p-12 rounded-xl border-2 border-azuloscuro mq980:w-full">
+            <div className="w-[1200px] p-12 mq980:p-8 rounded-xl border-2 border-azuloscuro mq980:w-full">
             <div className=" flex flex-row mq980:flex-col">
                 <div className=" flex flex-col w-1/2 mq980:w-full mq980:text-center">
                     <h1 className="font-spartan font-bold text-4xl mb-5 mq980:text-3xl">NUESTROS CLIENTES</h1>

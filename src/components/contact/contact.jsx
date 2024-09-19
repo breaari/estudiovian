@@ -58,23 +58,23 @@ export const Contact = () => {
     return (
         <div id="contacto" className="flex justify-center text-azuloscuro py-16 mq980:py-8 mq980:max-w-screen" ref={contactRef}>
             <div className="w-[1200px] mq980:w-full">
-                    <div className="flex flex-row mq980:flex-col justify-between space-x-10 mq980:space-x-0 mq980:space-y-8">
-                        <div className="flex flex-col w-1/2 mq980:w-full p-12 border-2 border-azuloscuro rounded-xl">
+                    <div className="flex flex-row mq980:flex-col justify-between space-x-10 mq980:space-x-0 mq980:space-y-8 ">
+                        <div className="flex flex-col w-1/2 mq980:w-full p-12 mq980:p-8 border-2 border-azuloscuro rounded-xl">
                         <h1 className="font-spartan font-bold text-4xl mb-5">CONTACTO</h1>
                             <h2 className='text-xl font-semibold'>Tu consulta es importante para nosotros. No dudes en escribirnos y te responderemos a la mayor brevedad.</h2>
                             <div className="flex flex-row items-center mb-2 my-8">
-                                <FaUser className="text-xl mr-2"/>
-                                <h2 className='text-xl font-semibold'>Camilo Ferratti - responsable del estudio.</h2>
+                                <FaUser className="text-md mr-2"/>
+                                <h2 className='text-md font-semibold'>Camilo Ferratti - responsable del estudio.</h2>
                             </div>
                             <div className="flex flex-row items-center my-2">
-                                <MdEmail className="text-xl mr-2" />
-                                <a href="mailto:camilo.estudiovian@gmail.com" className='text-xl font-semibold text-azuloscuro hover:underline' target="_blank" rel="noopener noreferrer">
+                                <MdEmail className="text-md mr-2" />
+                                <a href="mailto:camilo.estudiovian@gmail.com" className='text-md font-semibold text-azuloscuro hover:underline' target="_blank" rel="noopener noreferrer">
                                     camilo.estudiovian@gmail.com
                                 </a>
                             </div>
                             <div className="flex flex-row items-center my-2">
-                            <FaPhone className="text-xl mr-2"/>
-                            <a href="https://wa.me/542235132279" className='text-xl font-semibold text-azuloscuro hover:underline' target="_blank" rel="noopener noreferrer">
+                            <FaPhone className="text-md mr-2"/>
+                            <a href="https://wa.me/542235132279" className='text-md font-semibold text-azuloscuro hover:underline' target="_blank" rel="noopener noreferrer">
                                 +54 223 513-2279
                             </a>
                             </div>
