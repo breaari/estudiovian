@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Landing } from './Views/Landing/Landing'
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <Landing></Landing>

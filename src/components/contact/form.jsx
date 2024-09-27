@@ -55,7 +55,7 @@ const handleSubmit = async (e) => {
     }
 
     try {
-        const responseBack = await axios.post("https://formspree.io/f/manwgydb", input, {
+        const responseBack = await axios.post("https://formspree.io/f/xzzpneyq", input, {
             headers: {
                 'Content-Type': 'application/json',
             },

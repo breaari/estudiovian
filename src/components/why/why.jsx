@@ -18,7 +18,7 @@ export const Why = () => {
                     </div>
                     <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] mq980:w-full hover:scale-105 transition-transform duration-300 ease-in-out">
                         <TbWorld className="text-6xl mb-2" />
-                        <p className="text-xl font-semibold text-center">Cobertura de servicio en CABA, Bs As, interior del país y a nivel mundial.</p>
+                        <p className="text-xl font-semibold text-center">Cobertura de servicio en CABA, Bs. As. e interior del país.</p>
                     </div>
                     <div className="bg-gray-100 rounded-xl p-5 flex flex-col justify-start items-center w-[390px] mq980:w-full hover:scale-105 transition-transform duration-300 ease-in-out">
                         <TbEyeSearch className="text-6xl mb-2" />
